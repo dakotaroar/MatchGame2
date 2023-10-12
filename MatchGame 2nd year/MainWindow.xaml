@@ -36,6 +36,11 @@
         <TextBlock Grid.Column="3" HorizontalAlignment="Center" Grid.Row="1" Text="?" VerticalAlignment="Center" FontSize="36" MouseDown="TextBlock_MouseDown" FontWeight="Bold" FontFamily="Old English Text MT" Background="#66023C" Foreground="#FF690060"/>
         <TextBlock Grid.Column="3" HorizontalAlignment="Center" Grid.Row="2" Text="?" VerticalAlignment="Center" FontSize="36" MouseDown="TextBlock_MouseDown" FontWeight="Bold" FontFamily="Old English Text MT" Background="#FF690060" Foreground="#66023C"/>
         <TextBlock Grid.Column="3" HorizontalAlignment="Center" Grid.Row="3" Text="?" VerticalAlignment="Center" FontSize="36" MouseDown="TextBlock_MouseDown" FontWeight="Bold" FontFamily="Old English Text MT" Background="#66023C" Foreground="#FF690060"/>
-        <TextBlock x:Name="timeTextBlock" HorizontalAlignment="Center" Grid.Row="4" TextWrapping="Wrap" Text="Elapsed time" VerticalAlignment="Center" Grid.ColumnSpan="4" FontSize="36" MouseDown="timeTextBlock_MouseDown" FontFamily="Old English Text MT" FontWeight="Bold"/>
+
+        <TextBlock x:Name="timeTextBlock" HorizontalAlignment="Center" Grid.Row="4" TextWrapping="Wrap" Text="Elapsed time" VerticalAlignment="Center" Grid.ColumnSpan="4" FontSize="36" MouseDown="timeTextBlock_MouseDown" FontFamily="Old English Text MT" FontWeight="Bold" Tag="SKIP"/>
+        <TextBlock x:Name="textWrong" HorizontalAlignment="Left" Margin="19,17,0,0" Grid.Row="4" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Tag="SKIP"/>
+        <TextBlock x:Name="textPercent" HorizontalAlignment="Left" Margin="19,59,0,0" Grid.Row="4" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Tag="SKIP"/>
+        <TextBlock x:Name="textRight" HorizontalAlignment="Left" Margin="19,38,0,0" Grid.Row="4" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Tag="SKIP"/>
+        <TextBlock x:Name="textBest" Grid.Column="3" HorizontalAlignment="Left" Margin="44,59,0,0" Grid.Row="4" TextWrapping="Wrap" Text="N/A" VerticalAlignment="Top" Tag="SKIP" FontSize="14"/>
     </Grid>
 </Window>
